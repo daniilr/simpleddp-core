@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "ejson": "^2.1.2",
+    "nanoid": "^3.1.30",
     "wolfy87-eventemitter": "^5.2.5"
   }
 }

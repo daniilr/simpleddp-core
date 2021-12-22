@@ -1,6 +1,7 @@
-var i = 0;
+import { nanoid } from 'nanoid';
+
 export function uniqueId () {
-    return (i++).toString();
+    return nanoid();
 }
 
 export function contains (array, element) {
